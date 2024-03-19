@@ -3,4 +3,4 @@
   connection : ssh
   tasks : 
   - name: Deploy Docker Container
-    command: docker run -itd -p 8084:8081 uobie80/asi-insure:1.0
+    command: docker run -itd -p 8084:8081 your-dockerhub-username/asi-insure:1.0
