@@ -3,7 +3,7 @@ pipeline {
   environment {
     PATH = "/opt/maven/bin:$PATH"
     tag = '1.0'
-    dockerHubUser = 'uobie80'
+    dockerHubUser = 'your-dockerhub-username'
     containerName = 'asi-insure'
     httpPort = '8081'
   }
