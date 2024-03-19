@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    PATH = "/usr/bin:$PATH"
+    PATH = "/opt/maven/bin:$PATH"
     tag = '1.0'
     dockerHubUser = 'uobie80'
     containerName = 'asi-insure'
